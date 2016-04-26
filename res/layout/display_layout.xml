@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg"
+    >
+    
+        
+    <com.tron.layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.tron.layout.TitleLayout>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        
+            >
+            <TextView 
+		        android:layout_width="100dp"
+		        android:layout_height="fill_parent" 
+		        android:gravity="center"
+		        android:textSize="7pt"
+		        android:text="会员卡名称" >
+		    </TextView>
+		    <TextView
+		        android:id="@+id/user_name"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:textSize="7pt"
+		        android:gravity="center"
+		        >
+		        
+		    </TextView>
+        
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+            >
+            <TextView 
+		        android:layout_width="100dp"
+		        android:layout_height="match_parent" 
+		        android:gravity="center"
+		        android:textSize="7pt"
+		        android:text="卡号" >
+		    </TextView>
+		    <TextView
+		        android:id="@+id/user_id"
+		        android:textSize="7pt"
+		        android:layout_width="wrap_content"
+		        android:gravity="center"
+		        android:layout_height="match_parent">
+		        
+		    </TextView>
+        </LinearLayout>
+    
+    <!-- <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="会员卡名称">
+    </TextView>
+    <TextView
+        android:id="@+id/user_name"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+    </TextView>
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="卡号">
+    </TextView>
+    <TextView
+        android:id="@+id/user_id"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+    </TextView>   -->
+
+</LinearLayout>

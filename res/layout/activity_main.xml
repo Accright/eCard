@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <!--  <com.tron.layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.tron.layout.TitleLayout> -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00B2EE">
+     <Button
+		android:id="@+id/testreside"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_gravity="left"
+		android:layout_marginTop="5dp"
+		android:background="@drawable/person"
+		android:textColor="#fff" />
+
+	<Button
+	    android:id="@+id/qr_scan"
+	    android:layout_width="50dp"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="14dp"
+	    android:background="@drawable/qs_button"
+	    android:textColor="#fff" />
+
+	<TextView
+	    android:id="@+id/temptitle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:text="Title Text"
+	    android:textColor="#fff"
+	    android:textSize="24sp" />
+  
+    </RelativeLayout>
+   <!--  <Button 
+        android:id="@+id/testreside"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="测试左划菜单"/> -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#00B2EE"
+        android:layout_height="60dp"
+    >
+
+        <RelativeLayout
+            android:id="@+id/coupon_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/coupon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/coupon_unselected" />
+
+                <TextView
+                    android:id="@+id/coupon_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="优惠券"
+                    android:textColor="#82858b" />
+            </LinearLayout>
+        </RelativeLayout>
+
+  <!--      <RelativeLayout
+            android:id="@+id/contacts_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/contacts_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/contacts_unselected" />
+
+                <TextView
+                    android:id="@+id/contacts_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="联系人"
+                    android:textColor="#82858b" />
+            </LinearLayout>
+        </RelativeLayout>          --> 
+        
+        <RelativeLayout
+            android:id="@+id/card_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/card_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/card_unselected" />
+
+                <TextView
+                    android:id="@+id/card_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="会员卡"
+                    android:textColor="#82858b" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/near_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/near_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/near_unselected" />
+
+                <TextView
+                    android:id="@+id/near_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="附近"
+                    android:textColor="#82858b" />
+            </LinearLayout>
+        </RelativeLayout>
+        </LinearLayout>
+
+</LinearLayout>

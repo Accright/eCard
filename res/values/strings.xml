@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">e卡卡</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_card_detail">CardDetailActivity</string>
+    <string name="title_activity_pesonal_setting">PesonalSettingActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_registe">RegisteActivity</string>
+
+</resources>

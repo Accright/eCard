@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+   >
+    
+    <LinearLayout 
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/scan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="扫描二维码"
+            android:textSize="15sp"
+            />
+        <Button 
+            android:id="@+id/request"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="请求数据源"
+            android:textSize="15sp"
+            />
+        <Button 
+            android:id="@+id/generate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="生成二维码"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="姓名："/>
+    <EditText 
+        android:id="@+id/namet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        />
+     <TextView 
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/namet"
+        android:text="年龄："/>
+     <EditText
+        android:id="@+id/aget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/age"
+        android:hint="HELLO TEST!" />
+        
+    <ImageView 
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    
+    <TextView 
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv"
+        android:text="网络请求地址区域"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
